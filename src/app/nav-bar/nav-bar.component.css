@@ -1,0 +1,22 @@
+mat-toolbar{
+    display: flex;
+    width: 100vw;
+    flex-wrap:wrap;
+    height:fit-content;
+}
+.logo-img{
+    height:7vh;
+}
+.space{
+    flex-grow:4;
+}
+.first-container{
+    flex-grow:1;
+}
+.second-container{
+    flex-grow:4;
+    text-align:center;
+}
+.third-container{
+    flex-grow:1;
+}
