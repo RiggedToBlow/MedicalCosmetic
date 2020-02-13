@@ -1,0 +1,18 @@
+.fixed{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+button{
+    font-size:larger;
+    /* color:white; */
+    height:min-content;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+img{
+    height:30px;
+    margin-right: 10px;;
+}

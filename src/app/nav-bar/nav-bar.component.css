@@ -1,22 +1,31 @@
 mat-toolbar{
     display: flex;
+    justify-content: space-around;
     width: 100vw;
     flex-wrap:wrap;
     height:fit-content;
 }
+.second-row{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
 .logo-img{
     height:7vh;
 }
-.space{
-    flex-grow:4;
+.logo-img-second{
+    height:10vh;
+    margin-right:20px;
 }
-.first-container{
-    flex-grow:1;
-}
-.second-container{
-    flex-grow:4;
+.secondary-container{
     text-align:center;
+    font-size:larger;
 }
-.third-container{
-    flex-grow:1;
+.second-row-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-row-info > h3{
+    font-size:larger;
 }

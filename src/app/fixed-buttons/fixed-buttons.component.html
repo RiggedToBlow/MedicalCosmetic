@@ -1,0 +1,19 @@
+<div class="fixed">
+  <mat-menu #appMenu="matMenu">
+    <button mat-menu-item>
+      <div class="item">
+        <img src="../../assets/whatsapp-icon.svg" />
+        <h5>تواصلوا معنا عبر واتساب</h5>
+      </div>
+    </button>
+    <button mat-menu-item>
+      <div class="item">
+        <img src="../../assets/facebook-icon.svg" />
+        <h5>تواصلوا معنا عبر فيسبوك</h5>
+      </div>
+    </button>
+  </mat-menu>
+  <button color="accent" mat-raised-button mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>message</mat-icon>
+  </button>
+</div>
